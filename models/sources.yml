@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: hr
+    database: DBT
+    schema: HR
+    description: "hr related data"
+
+    tables :
+      - name : SRC_EMPLOYEES
+
+      
